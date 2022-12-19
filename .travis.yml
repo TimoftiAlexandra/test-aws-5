@@ -2,9 +2,7 @@ os: linux
 env:
   STR1: 794b2dbb-bd82-4707-a2f7-f3d9899cb386
   STR2: MzcxNzJhN2UtYjEzNS00MjNjLTg2N2YtMjFlZmRlZWNjMDU1
-  jobs:
-   include:
-     - script: 
+script: 
   - echo $STR1
   - echo $STR2
   - echo "794b2dbb-bd82-4707-a2f7-f3d9899cb386"
